@@ -63,7 +63,7 @@
                     <buttons>
                         <Button minWidth="39.0" mnemonicParsing="false" prefHeight="25.0" text="New..." />
                         <Button minWidth="47.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Edit..." />
-                      <Button minWidth="45.0" mnemonicParsing="false" prefHeight="25.0" text="Delete" />
+                      <Button minWidth="45.0" mnemonicParsing="false" onAction="#handleDeletePerson" prefHeight="25.0" text="Delete" />
                     </buttons>
                   </ButtonBar>
                </children>
